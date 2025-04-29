@@ -1,0 +1,124 @@
+/* This is the Navbar styles */
+    li {
+        float: left;
+
+  }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+  }
+
+    a {
+        display: block;
+        padding: 8px;
+        background-color: rgb(255, 0, 0);
+  }
+    li a:hover {
+        background-color: rgb(0, 255, 85);
+}
+
+/* This is main body styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: aliceblue;
+        margin: 10px;
+        text-align: center
+  }
+  
+    h1 {
+        color: darkblue;
+        text-align: center;
+  }
+
+/* This is main body styles */
+    .product {
+        text-align: center
+    }
+  
+  /* This is paragraph sytles */
+    p {
+        color: #333;
+        font-size: 20px;
+  }
+  
+  /* This is the link style */
+    a {
+        color: rgb(255, 174, 0);
+        text-decoration: none;
+  }
+  
+    a:hover {
+        color: green;
+        text-decoration: underline;
+  }
+  
+    a:visited {
+        color: purple;
+  }
+  
+  /* This is div element styles */
+    .content {
+        background-color: lightgray;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 20px;
+  }
+  
+  /* This is form styles */
+    form {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: white;
+  }
+  
+  /* This is the input, textarea, and button styling */
+    input, textarea, button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+  }
+  
+    input:focus, textarea:focus {
+        border-color: blue;
+        box-shadow: 0 0 8px gray;
+  }
+  
+  /* This is checkbox and radio button label styling */
+    input[type="checkbox"]:checked + label,
+    input[type="radio"]:checked + label {
+        font-weight: bold;
+        color: #4A90E2;
+  }
+  
+  /* This is button styling */
+    button {
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        padding: 10px;
+  }
+  
+    button:hover {
+        background-color: lightblue;
+  }
+  
+    button:active {
+        background-color: green;
+        transform: scale(0.98);
+  }
+
+    .text { 
+        background-color: none;
+        color: none;
+    }
