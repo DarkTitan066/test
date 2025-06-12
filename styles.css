@@ -1,0 +1,235 @@
+/* This is the Navbar styles */
+    li {
+        margin-right: 20px;
+  }
+  /* Default link styles for navigation and other links */
+  a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+  }
+
+  /* Hover and focus styles for links to enhance interactivity */
+  a:hover, a:focus {
+      background-color: rgb(206, 48, 1);
+      color: white;
+      text-decoration: underline;
+  }
+
+  /* Visited link styles to differentiate visited links */
+  a:visited {
+      color: rgb(0, 119, 128);
+  }
+
+  a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+  }
+
+  a:hover, a:focus {
+      background-color: rgb(206, 48, 1);
+      color: white;
+      text-decoration: underline;
+  }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+  }
+  nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+  }
+
+    nav {
+        background-color: rgb(85, 0, 0);
+        padding: 4px;
+  }
+    li a:hover {
+        background-color: rgb(206, 48, 1);
+}
+
+/* This is main body styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: rgb(37, 37, 37);
+        margin: 10px;
+        padding: 0;
+        text-align: center;
+        color: white(55, 173, 0);
+        line-height: 1.6;
+  }
+
+    /* This is the container styles */
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    
+/* This is the heading styles */
+    h1, h2, h3, h4, h5, h6 {
+        color: rgb(0, 119, 128);
+        text-align: center;
+        margin: 10px 0;
+        font-weight: normal;
+        font-family: 'Arial', sans-serif;
+    }
+    h1 {
+        font-size: 2.5em;
+        margin-top: 20px;
+ }
+    footer {
+        background-color: rgb(85, 0, 0);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        color: #333;
+        font-size: 16px;
+  }
+  
+  /* This is the link style - applied to a specific class or element */
+  .link-style {
+        background-color: lightgray;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 20px;
+  }
+  /* This is paragraph sytles */
+    p {
+      background-color: gr#6c757d;
+        color: #333;
+        font-size: 16px;
+  }
+/* This is the image styles */
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin: 1px 0;
+  }
+  
+  /* This is form styles */
+    form {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: white;
+  }
+  
+  /* This is the input, textarea, and button styling */
+    input, textarea, button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+  }
+  
+    input:focus, textarea:focus {
+        border-color: blue;
+        box-shadow: 0 0 8px gray;
+  }
+  
+  /* This is checkbox and radio button label styling */
+    input[type="checkbox"]:checked + label,
+    input[type="radio"]:checked + label {
+        font-weight: bold;
+        color: #4A90E2;
+  }
+  
+  /* This is button styling */
+    button {
+        background-color: rgb(206, 48, 1);
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        padding: 10px;
+  }
+  
+    button:hover {
+        background-color: rgb(206, 1, 1);
+  }
+  
+    button:active {
+        background-color: rgb(83, 0, 0);
+        transform: scale(0.98);
+  }
+
+    .text { 
+        background-color: none;
+        color: none;
+    }
+    
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+    table{
+      width: 80%;
+      margin: 20px auto;
+      text-align: center;
+    border-collapse: collapse;
+  }
+
+    table, tr, th, td{
+      border: 1px solid black;
+  }
+
+    td{
+      padding: 15px;
+      text-align: center;
+    }
+
+    .food-item{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 10px;
+      display: inline-block;
+      overflow: hidden;
+  }
+
+    .food-item img{
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+  }
+    .food-item h3 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .food-item p {
+        font-size: 14px;
+        color: #666;
+    } 
+    .event-description {
+        font-size: 16px;
+        color: #555;
+        margin: 10px 0;
+    }
+    .footer {
+        background-color: #f8f9fa;
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+        color: #6c757d;
+    }

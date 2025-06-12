@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section id="Navbar"> <!--navbar-->
+    <nav>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="events.html">Events</a></li>
+      </ul>
+    </nav>
+  </section> 
+
+
+  <h2>Contact Us</h2>
+    <p>For reservations or inquiries, please call us at (786) 558-7092 or email us at <a href="mailto:info@gauchoranch.com">info@gauchoranch.com</a></p>
+      <p>We value your feedback and inquiries. Please fill out the form below to get in touch with us.</p>
+  <br>
+  <form action="/contact-form" method="post">
+  <fieldset>
+  <legend>Leave your contact Information bellow</legend>
+     <label for="name">Name</label>
+     <input type="text" id="name" name="name" required placeholder="Enter your name here">
+  <br>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="Enter your email here">
+  <br>
+
+  <p>Inquiry</p> 
+     <div>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required placeholder="Write your inquiry here"></textarea>
+     </div>
+
+  <button type="reset">Reset</button>
+  <button type="submit">Submit</button>
+  </fieldset>
+ </section>
+  </form>
+    <footer class="footer">
+
+        <p>&copy; <span id="year"></span> Gaucho Ranch Grill and Wines. All rights reserved.</p>
+
+    </footer>
+</body>  
